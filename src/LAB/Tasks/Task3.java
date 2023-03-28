@@ -12,7 +12,13 @@ public class Task3 {
         int b = scanner.nextInt();
         System.out.println("h = ");
         float h = scanner.nextFloat();
-
-
+        int sum = 0;
+        int count = 0;
+        for (int i = a; i <= b; i += h) {
+            sum += i;
+            count++;
+        }
+        double average = sum / count;
+        System.out.println("Середнє арифметичне: " + average);
     }
 }
