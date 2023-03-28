@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Оберіть номер завдання, яке ви хочете розв'язати");
         Scanner scanner = new Scanner(System.in);
         while (true) {
+            System.out.println("Оберіть номер завдання, яке ви хочете розв'язати");
             String Exercise = scanner.nextLine();
             switch (Exercise) {
                 case "1":
