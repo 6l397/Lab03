@@ -1,4 +1,5 @@
 package LAB.Main;
+
 import LAB.Tasks.*;
 
 import java.util.Scanner;
@@ -33,6 +34,7 @@ public class Main {
                 case "6":
                     Task6 task6 = new Task6();
                     task6.Task6();
+                    break;
                 case "7":
                     Task7 task7 = new Task7();
                     task7.Task7();
