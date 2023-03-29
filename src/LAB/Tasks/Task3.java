@@ -18,7 +18,7 @@ public class Task3 {
             sum += i;
             count++;
         }
-        double average = sum / count;
+        double average = (double) sum / count;
         System.out.println("Середнє арифметичне: " + average);
     }
 }

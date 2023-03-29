@@ -12,8 +12,12 @@ public class Main {
             String Exercise = scanner.nextLine();
             switch (Exercise) {
                 case "1":
-                    Task1 task1 = new Task1();
-                    task1.Task1();
+                    System.out.println("Уведіть число більше за 15");
+                    Scanner scan = new Scanner(System.in);
+                    int a = scan.nextInt();
+                    Task1 first = new Task1();
+                    first.task1(a);
+                    System.out.println(first.task1(a));
                     break;
                 case "2":
                     Task2 task2 = new Task2();
