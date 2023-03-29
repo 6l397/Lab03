@@ -9,10 +9,10 @@ public class Task1 {
         int a = scan.nextInt();
         if (a <= 15) {
             System.out.println("Щось пішло не так, число не може бути меншим за 15");
-        }
-        for (int i = 10; i <= a; i++) {
-            if (i % 2 != 0) {
-                System.out.println( i + "^2 = " + Math.pow(i, 2));
+        } else {
+            for (int i = a; i >= 10; i--) {
+                if (i % 2 != 0)
+                    System.out.println(Math.pow(i, 2));
             }
         }
     }
